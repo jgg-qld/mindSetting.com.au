@@ -22,29 +22,25 @@
            background-position: center;
        }
        header {
-           background-color: rgba(255, 255, 255, 0.6); /* Lighter background for better visibility of the image */
-    padding: 10px;
-    text-align: center;
-    display: flex; /* Added */
-    align-items: center; /* Added */
-    justify-content: center; /* Added */
-    position: relative; /* Allow positioning of label */
+           background-color: rgba(255, 255, 255, 0.5); /* Lighter background for better visibility of the image */
+           padding: 10px;
+           text-align: center;
+           position: relative; /* Allow positioning of label */
        }
        header h1 {
            font-family: 'Georgia', serif;
-    font-size: 2.5rem;
-    color: #3e403f;
-    margin-left: 120px; /* Adjust to prevent overlap with logo */
+           font-size: 2.5rem;
+           color: #3e403f;
        }
        header p {
            font-size: 1.2rem;
            color: #6e6e6e;
        }
        .logo {
-            position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 80px; /* Adjust size as necessary */
+           position: absolute;
+           top: 20px;
+           left: 20px;
+           width: 100px; /* Adjust size as necessary */
        }
        section {
            max-width: 800px;
@@ -90,7 +86,7 @@
            width: 100%;
        }
        /* Mobile Friendly */
-       @media (max-width: 768px) {
+    @media (max-width: 768px) {
     header {
         flex-direction: column; /* Added */
         align-items: flex-start; /* Added */
