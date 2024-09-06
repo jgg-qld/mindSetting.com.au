@@ -86,14 +86,19 @@
            width: 100%;
        }
        /* Mobile Friendly */
-       @media (max-width: 768px) {
-           header h1 {
-               font-size: 2rem;
-           }
-           section h2 {
-               font-size: 1.8rem;
-           }
-       }
+     @media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Added */
+        align-items: flex-start; /* Added */
+    }
+    header h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 100px; /* Adjust to prevent overlap with logo */
+    }
+    .logo {
+        width: 60px; /* Adjust size as necessary */
+    }
 </style>
 </head>
 <body>
